@@ -1,0 +1,118 @@
+﻿body
+{
+}
+
+div.background 
+{
+	background-image:url('images/SlotMachine_Good_Clear.gif'); 
+	width:900px; 
+	height:600px;
+}
+
+div.main
+{
+	width:900px; 
+	padding-top:186px; 
+	text-align:center;
+}
+
+td.main
+{
+	vertical-align:top;
+}
+
+/* Console */
+
+div.console
+{
+	width:571px; 
+	margin-left:116px; 
+	margin-top:14px;
+}
+
+span.console
+{
+	vertical-align:top;
+	text-align:center; 
+}
+
+#spanConBet
+{
+	
+	 margin-left:22px;
+	 display:inline;
+}
+
+#spanConPayout
+{
+	margin-left:22px;
+	display:inline;
+	margin-right:auto;
+}
+
+#lblBet
+{
+	width:86px; 
+	display:inline;
+}
+
+#lblBalance
+{
+	vertical-align:top;
+}
+
+/*  Button Panel  */
+
+span.button_pnl 
+{
+	/*float:right;*/
+}
+
+table.button_pnl
+{
+	/*float:right;*/
+}
+
+div.button_pnl
+{
+	width:825px; 
+	margin-top:78px;
+	margin-left:70px;
+}
+
+table.button_pnl
+{
+	border-collapse:collapse;
+	/*margin-right:20px; */
+	margin-top:5px;
+	/*display:inline; */
+	table-layout:fixed; 
+	background-color:#000000; 
+	border: solid 3px #FFFFFF; 
+	text-align:center;
+}
+
+#spanBtnBetMax
+{
+	/*margin-right:139px;*/
+}
+
+#spanBtnBetMin
+{
+	/*margin-right:22px;*/
+}
+
+#spanBtnReset
+{
+	 /*margin-right:22px;*/
+}
+
+div.link
+{
+	display:none;
+	font-family:Tahoma;
+	font-weight:bold;
+	font-size:large;
+	text-align:center;
+	margin-top:50px;
+}

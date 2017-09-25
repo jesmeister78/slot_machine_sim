@@ -1,0 +1,54 @@
+﻿=====================================================
+Betting Rules
+-----------------------------------------------------
+
+100 tokens @ 10c each
+Max bet 10 tok
+
+Once bankroll <= 10tok -> max bet 1 tok
+
+20 bets only (lose overall) + 20 bets only (win overall) or visaversa  
+
+
+
+=====================================================
+Odds
+-----------------------------------------------------
+
+3 of a kind: not included
+
+2 of a kind: 1:1
+
+Ch - Ch - Hs : 2:1
+
+
+
+
+Dm - Dm - St : 3:1
+
+Pr - Pr - Gr : *
+
+Chip - Ch
+Clover - Cl
+Crown - Cr
+Diamond - Dm
+Grapes - Gr
+Horseshoe - Hs
+Pear - Pr
+Star - St
+Strawberry - Sb
+
+Death Roll ():
+	- lose all tokens
+	
+=====================================================
+Win Rate
+-----------------------------------------------------
+
+Percentage figure stored in Web.config 
+	<AppSettings>
+		<key="WIN_RATE" value="" />
+		<key="LOSS_RATE" value="" />
+	</AppSettings>
+	
+
